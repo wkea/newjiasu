@@ -40,7 +40,7 @@ const App = () => {
       autorun(() => {
         if (wasmStore.available === undefined)
           noticeStore.show({
-            text: "Loading...",
+            text: "正在加载...",
             showProgress: true,
             dismissable: false,
           });
