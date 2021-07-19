@@ -214,7 +214,7 @@ const Modes = () => {
           }
           onClick={uploadMode}
         >
-          Upload
+          上载
         </Button>
       </div>
     </RouteContainer>
