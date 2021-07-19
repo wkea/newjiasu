@@ -17,7 +17,7 @@ const Header = ({ disabled }: any) => {
   return useObserver(() => (
     <nav className="w-full h-16 flex flex-row items-stretch justify-between relative">
       <div className="flex-1 flex flex-row items-center px-4">
-        <p className="font-bold text-2xl">Launchpad Utility</p>
+        <p className="font-bold text-2xl">NEW固件升级</p>
       </div>
       <div
         className="flex flex-row justify-center text-xl text-center"
