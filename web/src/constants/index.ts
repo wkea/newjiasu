@@ -74,7 +74,7 @@ export const bltext: FirmwareMap<string> = {
   [FlashableFirmwares.LPX]: "Capture MIDI 按钮",
   [FlashableFirmwares.LPMINIMK3]: "User 按钮",
   [FlashableFirmwares.LPPROMK3]: "Setup 按钮",
-  [FlashableFirmwares.LPMK2]: "同时按 Session, User 1, User 2 and Mixer 4个按钮",
+  [FlashableFirmwares.LPMK2]: "同时按 Session, User 1, User 2 , Mixer 4个按钮",
   [FlashableFirmwares.LPPRO]: "Setup 按钮",
   [FlashableFirmwares.CFY]: "Setup 按钮",
   [FlashableFirmwares.CUSTOM_SYSEX]: "",
