@@ -1,0 +1,8 @@
+{
+  "name": "LP-Firmware-Utility",
+  "short_name": "LP-FU",
+  "start_url": "./index.html",
+  "display": "browser",
+  "background_color": "#191919",
+  "theme_color": "#FFFFFF"
+}
