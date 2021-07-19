@@ -72,10 +72,10 @@ const Firmware = () => {
           !deviceIsBLForFW(launchpadStore.launchpad.type, targetLp)
         )
           noticeStore.show({
-            text: `Please connect a ${targetLp} in bootloader mode to continue flashing.`,
+            text: `请将 ${targetLp} 切换至调试引导模式（bootloader）进行升级.`,
             dismissable: true,
             svg: `./svg/${svgs[selectedLp]}.svg`,
-            bl: `You can enter the bootloader by holding ${bltext[selectedLp]} while turning your Launchpad on.`,
+            bl: `切换方法：先断开设备与电脑的链接按住 ${bltext[selectedLp]} 持续按住并连接设备，即可进入BL引导模式.`,
             callback: cancelFlash as () => void,
           });
       } catch (e) {
