@@ -59,7 +59,7 @@ const Firmware = () => {
           .then(async (continueFlashing: any) => {
             if (!continueFlashing) return;
             noticeStore.show({
-              text: "Updating...",
+              text: "上载中...",
               dismissable: false,
               showProgress: true,
             });
