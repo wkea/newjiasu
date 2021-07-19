@@ -282,7 +282,7 @@ const Firmware = () => {
         <p className="pt-4">
           <span className="opacity-50">如果是初次升级请</span>
           <a
-            href="https://github.com/mat1jaczyyy/apollo-studio/raw/master/Publish/novationusbmidi.exe"
+            href="https://lpdbbs.com/LPDBBS-6458/.html"
             target="_blank"
             rel="noopener noreferrer"
             className="opacity-75 underline"
